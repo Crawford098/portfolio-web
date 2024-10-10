@@ -1,0 +1,386 @@
+/* You can add global styles to this file, and also import other style files */
+
+:root {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.main-container {
+    margin: 0 150px;
+}
+
+/******* FLEX *******/
+.flex {
+    display: flex;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-columns {
+    display: flex;
+    flex-direction: column;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.no-li-style {
+    list-style: none;
+}
+
+.w-full {
+    width: 100%;
+}
+
+
+/****** MARGIN *******/
+.m-1 {
+    margin: 0.1rem;
+}
+
+.m-2 {
+    margin: 1rem;
+}
+
+.m-3 {
+    margin: 1.5rem;
+}
+
+.m-4 {
+    margin: 2rem;
+}
+
+.m-5 {
+    margin: 2.5rem;
+}
+
+/****** MARGIN EJE -> X *******/
+.mx-1 {
+    margin-left: 0.1rem;
+    margin-right: 0.1rem;
+}
+
+.mx-2 {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+
+.mx-3 {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+.mx-4 {
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.mx-5 {
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+}
+
+/****** MARGIN EJE -> Y *******/
+.my-1 {
+    margin-top: 0.1rem;
+    margin-bottom: 0.1rem;
+}
+
+.my-2 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.my-3 {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.my-4 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.my-5 {
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+
+
+/****** PADDING *******/
+.p-1 {
+    padding: 0.1rem;
+}
+
+.p-2 {
+    padding: 1rem;
+}
+
+.p-3 {
+    padding: 1.5rem;
+}
+
+.p-4 {
+    padding: 2rem;
+}
+
+.p-5 {
+    padding: 2.5rem;
+}
+
+
+/****** PADDING EJE -> X *******/
+.px-1 {
+    padding-left: 0.1rem;
+    padding-right: 0.1rem;
+}
+
+.px-2 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+
+.px-3 {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.px-4 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+
+.px-5 {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+}
+
+.px-6 {
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.px-7 {
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
+}
+
+.px-8 {
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+.px-9 {
+    padding-left: 4.5rem;
+    padding-right: 4.5rem;
+}
+
+.px-10 {
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+/****** PADDING EJE -> Y *******/
+.py-1 {
+    padding-top: 0.1rem;
+    padding-bottom: 0.1rem;
+}
+
+.py-2 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+
+.py-3 {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.py-4 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+
+.py-5 {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+}
+
+/****** PADDING TOP *******/
+.pt-1 {
+    padding-top: 0.1rem;
+}
+
+.pt-2 {
+    padding-top: 1rem;
+}
+
+
+.pt-3 {
+    padding-top: 1.5rem;
+}
+
+.pt-4 {
+    padding-top: 2rem;
+}
+
+
+.pt-5 {
+    padding-top: 2.5rem;
+}
+
+.py-6 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.py-7 {
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+}
+
+.py-8 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.py-9 {
+    padding-top: 4.5rem;
+    padding-bottom: 4.5rem;
+}
+
+.py-10 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+
+/****** BORDER *******/
+.border-t-1 {
+    border-top: 1px black solid;
+}
+
+.border-b-1 {
+    border-bottom: 1px black solid;
+}
+.border-l-1 {
+    border-left: 1px black solid;
+}
+.border-r-1 {
+    border-right: 1px black solid;
+}
+
+
+/****** UL - LI *******/
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.ul-style {
+    list-style: circle;
+}
+
+li {
+    padding: 6px 2px;
+}
+
+/***** COLOR *****/
+
+.color-1 {
+    color: #FF204E;
+}
+.color-2 {
+    color: #A0153E;
+}
+.color-3 {
+    color: #5D0E41;
+}
+.color-4 {
+    color: #00224D;
+}
+
+.bg-color-1 {
+    background-color: #FF204E;
+}
+.bg-color-2 {
+    background-color: #A0153E;
+}
+.bg-color-3 {
+    background-color: #5D0E41;
+}
+.bg-color-4 {
+    background-color: #00224D;
+}
+
+.color-f {
+    color: white;
+}
+
+.bg-color-f {
+    background-color: white;
+}
+
+.color-0 {
+    color: #0f0f11;
+}
+
+.bg-color-0 {
+    background-color: #0f0f11;
+}
+
+/*FONT*/
+.bold {
+    font-weight: bold;
+}
+
+/********* BUTTONS *********/
+
+.btn-fist {
+    background-color: #FF204E;
+    color: #FFFFFF;
+    box-shadow: 3px 3px 6px #FF204E;
+    margin: 0px 10px;
+    border: none;
+    border-radius: 8px;
+    padding: 12px;
+}
+
+.btn-fist:hover, .btn-second {
+    cursor: pointer;
+}
+
+.btn-second {
+    background-color: #FFFFFF;
+    color: #000000;
+    margin: 0px 10px;
+    border-color: #FF204E;
+    border-radius: 8px;
+    padding: 12px;
+}
+
+.relative {
+    position: relative;
+}

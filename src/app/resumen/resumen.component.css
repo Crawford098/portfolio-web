@@ -1,0 +1,41 @@
+.main-info {
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+}
+
+.img-background {
+    position: absolute;
+    top: -130px;
+    right: -120px;
+    width: 650px;
+    height: 650px;
+}
+
+.img-frontground {
+    position: absolute;
+    top: 1px;
+    right: 15px;
+    width: 400px;
+    height: 400px;
+    animation-name: levitate;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+.icon-link:hover {
+    cursor: pointer;
+}
+
+@keyframes levitate {
+    0% {
+        top: 1px;
+    }
+
+    50% {
+        top: -15px;
+    }
+
+    100% {
+        top: 1px;
+    }
+}

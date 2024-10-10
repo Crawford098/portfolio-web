@@ -1,0 +1,29 @@
+
+.nav-title {
+    font-size: 30px;
+}
+
+.nav-items {
+    font-size: 18px;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: min-content;
+}
+.nav-items a {
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+}
+
+.nav-items a:hover {
+    color: #FF204E;
+    font-size: 20px;
+}
+
+.nav-items a.active {
+    color: #FF204E;
+}
+
+.max-h-70 {
+    max-height: 70px;
+}
