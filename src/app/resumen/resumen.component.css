@@ -26,6 +26,13 @@
     cursor: pointer;
 }
 
+.animation-fade {
+    animation-name: into-left;
+    animation-duration: 2s;
+    position: absolute;
+    left: 0px;
+}
+
 @keyframes levitate {
     0% {
         top: 1px;
@@ -37,5 +44,22 @@
 
     100% {
         top: 1px;
+    }
+}
+
+@keyframes into-left {
+    0% {
+        opacity: 0;
+        left: -60px;
+    }
+
+    50% {
+        opacity: 0.5;
+        left: -25.5px;
+    }
+
+    100% {
+        opacity: 1;
+        left: 0px;
     }
 }
