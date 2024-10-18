@@ -4,7 +4,7 @@ import {Component, QueryList, AfterContentInit, ContentChildren, Input} from "@a
     selector: 'nav-item',
     standalone: true,
     templateUrl: './navBarItems.component.html',
-    styleUrl: './navBarItems.component.css'
+    styleUrls: ['./navBarItems.component.css', '../navBar.component.css']
 })
 
 export class NavBarItems {
