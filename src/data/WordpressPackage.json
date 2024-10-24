@@ -1,0 +1,187 @@
+[
+  {
+    "name": "Basic",
+    "title": "",
+    "description": "",
+    "price": "200",
+    "columns": 
+      {
+        "funcionalWebsite": {
+          "name": "Functional Website",
+          "valid": true
+        },
+        "responsiveDesign": {
+          "name": "Responsive Design",
+          "valid": true
+        },
+        "contentUpload": {
+          "name": "Content Upload",
+          "valid": true
+        },
+        "e-commerce": {
+          "name": "E-commerce functionality",
+          "valid": false
+        },
+        "paymentProcessing": {
+          "name": "Payment processing",
+          "valid": false
+        },
+        "opt-inFrom": {
+          "name": "Opt-in from",
+          "valid": false
+        },
+        "hostingSetup": {
+          "name": "Hosting Setup",
+          "valid": true
+        },
+        "socialMediaIcons": {
+          "name": "Social media icons",
+          "valid": true
+        },
+        "pagesNumber": {
+          "name": "Number of pages",
+          "valid": true
+        },
+        "productsNumber": {
+          "name": "Number of products",
+          "valid": false
+        },
+        "pluginsInstalled": {
+          "name": "Plugins/extensions instillation",
+          "valid": false
+        },
+        "revisions": {
+          "name": "Revisions",
+          "valid": true
+        },
+        "deliveryTime": {
+          "name": "Delivery Time",
+          "valid": true
+        }
+      }
+  },
+  {
+    "name": "Standart",
+    "title": "",
+    "description": "",
+    "price": "340",
+    "columns": 
+      {
+        "funcionalWebsite": {
+          "name": "Functional Website",
+          "valid": true
+        },
+        "responsiveDesign": {
+          "name": "Responsive Design",
+          "valid": true
+        },
+        "contentUpload": {
+          "name": "Content Upload",
+          "valid": true
+        },
+        "e-commerce": {
+          "name": "E-commerce functionality",
+          "valid": false
+        },
+        "paymentProcessing": {
+          "name": "Payment processing",
+          "valid": false
+        },
+        "opt-inFrom": {
+          "name": "Opt-in from",
+          "valid": true
+        },
+        "hostingSetup": {
+          "name": "Hosting Setup",
+          "valid": true
+        },
+        "socialMediaIcons": {
+          "name": "Social media icons",
+          "valid": true
+        },
+        "pagesNumber": {
+          "name": "Number of pages",
+          "valid": true
+        },
+        "productsNumber": {
+          "name": "Number of products",
+          "valid": true
+        },
+        "pluginsInstalled": {
+          "name": "Plugins/extensions instillation",
+          "valid": false
+        },
+        "revisions": {
+          "name": "Revisions",
+          "valid": true
+        },
+        "deliveryTime": {
+          "name": "Delivery Time",
+          "valid": true
+        }
+      }
+    
+  },
+  {
+    "name": "Premium",
+    "title": "",
+    "description": "",
+    "price": "550",
+    "columns": 
+      {
+        "funcionalWebsite": {
+          "name": "Functional Website",
+          "valid": true
+        },
+        "responsiveDesign": {
+          "name": "Responsive Design",
+          "valid": true
+        },
+        "contentUpload": {
+          "name": "Content Upload",
+          "valid": true
+        },
+        "e-commerce": {
+          "name": "E-commerce functionality",
+          "valid": true
+        },
+        "paymentProcessing": {
+          "name": "Payment processing",
+          "valid": true
+        },
+        "opt-inFrom": {
+          "name": "Opt-in from",
+          "valid": true
+        },
+        "hostingSetup": {
+          "name": "Hosting Setup",
+          "valid": true
+        },
+        "socialMediaIcons": {
+          "name": "Social media icons",
+          "valid": true
+        },
+        "pagesNumber": {
+          "name": "Number of pages",
+          "valid": true
+        },
+        "productsNumber": {
+          "name": "Number of products",
+          "valid": true
+        },
+        "pluginsInstalled": {
+          "name": "Plugins/extensions instillation",
+          "valid": false
+        },
+        "revisions": {
+          "name": "Revisions",
+          "valid": true
+        },
+        "deliveryTime": {
+          "name": "Delivery Time",
+          "valid": true
+        }
+      }
+    
+  }
+]

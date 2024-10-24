@@ -32,6 +32,37 @@
     color: #FF204E;
 }
 
+table {
+    border-collapse: collapse;
+    font-size: 25px;
+}
+
+table tr td {
+    padding: 10px !important;
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+}
+
+table tr td:last-child {
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+table tr th {
+    padding: 5px 10px;
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+}
+
+table tr th:last-child {
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+table tr td{
+    padding: 0px 20px;
+}
+
 @keyframes bigLetter{
 
     0% {
