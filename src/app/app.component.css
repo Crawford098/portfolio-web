@@ -1,0 +1,86 @@
+
+.nav-title {
+    font-size: 30px;
+}
+
+.nav-items {
+    font-size: 18px;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: min-content;
+}
+.nav-items a {
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+    font-size: 18px;
+}
+
+.nav-items a:hover {
+    color: #FF204E;
+    animation-name: bigLetter;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+.nav-items a:not(:hover) {
+    animation-name: smallLetter;
+    animation-duration: 1s;
+}
+
+.nav-items a.active {
+    color: #FF204E;
+}
+
+table {
+    border-collapse: collapse;
+    font-size: 25px;
+}
+
+table tr td {
+    padding: 10px !important;
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+}
+
+table tr td:last-child {
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+table tr th {
+    padding: 5px 10px;
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+}
+
+table tr th:last-child {
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+table tr td{
+    padding: 0px 20px;
+}
+
+@keyframes bigLetter{
+
+    0% {
+        font-size: 18px;
+    }
+
+    100%{
+        font-size: 20px;
+    }
+}
+
+@keyframes smallLetter{
+
+    0% {
+        font-size: 20px;
+    }
+
+    100%{
+        font-size: 18px;
+    }
+}

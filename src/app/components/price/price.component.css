@@ -1,0 +1,31 @@
+.container {
+    border: 2px solid rgb(109, 109, 109);
+    border-radius: 10px;
+    justify-self: start;
+    padding: 10px 36px;
+    box-shadow: 0px 0px 8px -5px black;
+}
+
+span.name {
+    font-size: 25px;
+    font-weight: 600;
+    padding: 6px 0;
+    color: #00224D;
+}
+
+span.description {
+    font-size: 14px;
+    padding-bottom: 6px;
+    opacity: 0.7;
+}
+
+.price {
+    font-size: 40px;
+    font-weight: 600;
+    padding-bottom: 6px;
+    color: #00224D;
+}
+
+.feature-name {
+    opacity: 0.7;
+}

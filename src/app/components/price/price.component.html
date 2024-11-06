@@ -1,0 +1,28 @@
+<div class="container">
+  <div class="header flex flex-columns text-center">
+    <span class="name">{{ package.name }}</span>
+    <span class="description"> {{ package.description }}</span>
+  </div>
+
+  <div class="flex flex-columns py-2 text-center">
+    <span class="price">${{ package.price }}</span>
+    <span class="description">Price description</span>
+  </div>
+
+  <div>
+    <button class="btn-second m-0 w-full">Buy Now</button>
+  </div>
+
+  <div class="pt-4">
+    <span style="color: #00224D;;"><strong>Features:</strong></span>
+  </div>
+
+  <div>
+    <ul>
+    <li *ngFor="let key of columnKeys">
+      {{ package.columns[key].valid ? "✅" : "✖️" }}
+      <span class="feature-name">{{ package.columns[key].name }}</span> 
+    </li>
+  </ul>
+  </div>
+</div>   
